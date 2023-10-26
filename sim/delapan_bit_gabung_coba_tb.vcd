@@ -1,0 +1,1879 @@
+$date
+	Thu Oct 26 23:27:40 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module delapan_bit_gabung_coba_tb $end
+$var wire 16 ! q [15:0] $end
+$var wire 1 " done_delapanbitgabungcoba $end
+$var wire 1 # cout $end
+$var reg 8 $ a [7:0] $end
+$var reg 8 % b [7:0] $end
+$var reg 1 & clock $end
+$var reg 1 ' enable $end
+$var reg 1 ( reset $end
+$scope module uut $end
+$var wire 16 ) Output_SO [15:0] $end
+$var wire 16 * Output_buff [15:0] $end
+$var wire 2 + Sign_OP_Check [1:0] $end
+$var wire 8 , a [7:0] $end
+$var wire 9 - a_extd [8:0] $end
+$var wire 8 . aa [7:0] $end
+$var wire 9 / add_SO [8:0] $end
+$var wire 8 0 b [7:0] $end
+$var wire 1 1 cin $end
+$var wire 1 & clock $end
+$var wire 1 2 done_cout $end
+$var wire 1 " done_delapanbitgabungcoba $end
+$var wire 1 ' enable $end
+$var wire 1 ( reset $end
+$var wire 1 3 s8 $end
+$var wire 9 4 twosc [8:0] $end
+$var wire 1 5 untukmemory_cout $end
+$var wire 16 6 untukmemory [15:0] $end
+$var wire 8 7 s9 [7:0] $end
+$var wire 8 8 s7 [7:0] $end
+$var wire 8 9 s6 [7:0] $end
+$var wire 8 : s5 [7:0] $end
+$var wire 8 ; s4 [7:0] $end
+$var wire 8 < s3 [7:0] $end
+$var wire 8 = s2 [7:0] $end
+$var wire 8 > s1 [7:0] $end
+$var wire 16 ? q [15:0] $end
+$var wire 1 @ done_q $end
+$var wire 1 A cout_s6 $end
+$var wire 1 B cout_s5 $end
+$var wire 1 # cout $end
+$var wire 16 C c [15:0] $end
+$var wire 8 D bb [7:0] $end
+$scope begin g_sign_op[0] $end
+$upscope $end
+$scope begin g_sign_op[1] $end
+$upscope $end
+$scope begin g_sign_op[2] $end
+$upscope $end
+$scope begin g_sign_op[3] $end
+$upscope $end
+$scope begin g_sign_op[4] $end
+$upscope $end
+$scope begin g_sign_op[5] $end
+$upscope $end
+$scope begin g_sign_op[6] $end
+$upscope $end
+$scope module MCC_8bit_1 $end
+$var wire 8 E Sum [7:0] $end
+$var wire 8 F P [7:0] $end
+$var wire 8 G G [7:0] $end
+$var wire 1 B Cout $end
+$var wire 9 H C [8:0] $end
+$var wire 8 I B [7:0] $end
+$var wire 8 J A [7:0] $end
+$scope begin genblk1[0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope begin genblk1[4] $end
+$upscope $end
+$scope begin genblk1[5] $end
+$upscope $end
+$scope begin genblk1[6] $end
+$upscope $end
+$scope begin genblk1[7] $end
+$upscope $end
+$scope module GP[0] $end
+$var wire 1 K A $end
+$var wire 1 L B $end
+$var wire 1 M G $end
+$var wire 1 N P $end
+$upscope $end
+$scope module GP[1] $end
+$var wire 1 O A $end
+$var wire 1 P B $end
+$var wire 1 Q G $end
+$var wire 1 R P $end
+$upscope $end
+$scope module GP[2] $end
+$var wire 1 S A $end
+$var wire 1 T B $end
+$var wire 1 U G $end
+$var wire 1 V P $end
+$upscope $end
+$scope module GP[3] $end
+$var wire 1 W A $end
+$var wire 1 X B $end
+$var wire 1 Y G $end
+$var wire 1 Z P $end
+$upscope $end
+$scope module GP[4] $end
+$var wire 1 [ A $end
+$var wire 1 \ B $end
+$var wire 1 ] G $end
+$var wire 1 ^ P $end
+$upscope $end
+$scope module GP[5] $end
+$var wire 1 _ A $end
+$var wire 1 ` B $end
+$var wire 1 a G $end
+$var wire 1 b P $end
+$upscope $end
+$scope module GP[6] $end
+$var wire 1 c A $end
+$var wire 1 d B $end
+$var wire 1 e G $end
+$var wire 1 f P $end
+$upscope $end
+$scope module GP[7] $end
+$var wire 1 g A $end
+$var wire 1 h B $end
+$var wire 1 i G $end
+$var wire 1 j P $end
+$upscope $end
+$upscope $end
+$scope module MCC_8bit_2 $end
+$var wire 8 k A [7:0] $end
+$var wire 8 l B [7:0] $end
+$var wire 8 m Sum [7:0] $end
+$var wire 8 n P [7:0] $end
+$var wire 8 o G [7:0] $end
+$var wire 1 A Cout $end
+$var wire 9 p C [8:0] $end
+$scope begin genblk1[0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope begin genblk1[4] $end
+$upscope $end
+$scope begin genblk1[5] $end
+$upscope $end
+$scope begin genblk1[6] $end
+$upscope $end
+$scope begin genblk1[7] $end
+$upscope $end
+$scope module GP[0] $end
+$var wire 1 q A $end
+$var wire 1 r B $end
+$var wire 1 s G $end
+$var wire 1 t P $end
+$upscope $end
+$scope module GP[1] $end
+$var wire 1 u A $end
+$var wire 1 v B $end
+$var wire 1 w G $end
+$var wire 1 x P $end
+$upscope $end
+$scope module GP[2] $end
+$var wire 1 y A $end
+$var wire 1 z B $end
+$var wire 1 { G $end
+$var wire 1 | P $end
+$upscope $end
+$scope module GP[3] $end
+$var wire 1 } A $end
+$var wire 1 ~ B $end
+$var wire 1 !" G $end
+$var wire 1 "" P $end
+$upscope $end
+$scope module GP[4] $end
+$var wire 1 #" A $end
+$var wire 1 $" B $end
+$var wire 1 %" G $end
+$var wire 1 &" P $end
+$upscope $end
+$scope module GP[5] $end
+$var wire 1 '" A $end
+$var wire 1 (" B $end
+$var wire 1 )" G $end
+$var wire 1 *" P $end
+$upscope $end
+$scope module GP[6] $end
+$var wire 1 +" A $end
+$var wire 1 ," B $end
+$var wire 1 -" G $end
+$var wire 1 ." P $end
+$upscope $end
+$scope module GP[7] $end
+$var wire 1 /" A $end
+$var wire 1 0" B $end
+$var wire 1 1" G $end
+$var wire 1 2" P $end
+$upscope $end
+$upscope $end
+$scope module MCC_8bit_3 $end
+$var wire 8 3" A [7:0] $end
+$var wire 8 4" Sum [7:0] $end
+$var wire 8 5" P [7:0] $end
+$var wire 8 6" G [7:0] $end
+$var wire 1 5 Cout $end
+$var wire 9 7" C [8:0] $end
+$var wire 8 8" B [7:0] $end
+$scope begin genblk1[0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope begin genblk1[4] $end
+$upscope $end
+$scope begin genblk1[5] $end
+$upscope $end
+$scope begin genblk1[6] $end
+$upscope $end
+$scope begin genblk1[7] $end
+$upscope $end
+$scope module GP[0] $end
+$var wire 1 9" A $end
+$var wire 1 :" B $end
+$var wire 1 ;" G $end
+$var wire 1 <" P $end
+$upscope $end
+$scope module GP[1] $end
+$var wire 1 =" A $end
+$var wire 1 >" B $end
+$var wire 1 ?" G $end
+$var wire 1 @" P $end
+$upscope $end
+$scope module GP[2] $end
+$var wire 1 A" A $end
+$var wire 1 B" B $end
+$var wire 1 C" G $end
+$var wire 1 D" P $end
+$upscope $end
+$scope module GP[3] $end
+$var wire 1 E" A $end
+$var wire 1 F" B $end
+$var wire 1 G" G $end
+$var wire 1 H" P $end
+$upscope $end
+$scope module GP[4] $end
+$var wire 1 I" A $end
+$var wire 1 J" B $end
+$var wire 1 K" G $end
+$var wire 1 L" P $end
+$upscope $end
+$scope module GP[5] $end
+$var wire 1 M" A $end
+$var wire 1 N" B $end
+$var wire 1 O" G $end
+$var wire 1 P" P $end
+$upscope $end
+$scope module GP[6] $end
+$var wire 1 Q" A $end
+$var wire 1 R" B $end
+$var wire 1 S" G $end
+$var wire 1 T" P $end
+$upscope $end
+$scope module GP[7] $end
+$var wire 1 U" A $end
+$var wire 1 V" B $end
+$var wire 1 W" G $end
+$var wire 1 X" P $end
+$upscope $end
+$upscope $end
+$scope module gabung_coba_1 $end
+$var wire 4 Y" a [3:0] $end
+$var wire 4 Z" b [3:0] $end
+$var wire 1 [" cin $end
+$var wire 1 \" s8 $end
+$var wire 4 ]" s9 [3:0] $end
+$var wire 4 ^" s7 [3:0] $end
+$var wire 4 _" s6 [3:0] $end
+$var wire 4 `" s5 [3:0] $end
+$var wire 4 a" s4 [3:0] $end
+$var wire 4 b" s3 [3:0] $end
+$var wire 4 c" s2 [3:0] $end
+$var wire 4 d" s1 [3:0] $end
+$var wire 1 e" cout_s6 $end
+$var wire 1 f" cout_s5 $end
+$var wire 1 g" cout $end
+$var wire 8 h" c [7:0] $end
+$scope module MCC_4bit_1 $end
+$var wire 4 i" Sum [3:0] $end
+$var wire 4 j" P [3:0] $end
+$var wire 4 k" G [3:0] $end
+$var wire 1 f" Cout $end
+$var wire 5 l" C [4:0] $end
+$var wire 4 m" B [3:0] $end
+$var wire 4 n" A [3:0] $end
+$scope begin genblk1[0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope module GP[0] $end
+$var wire 1 o" A $end
+$var wire 1 p" B $end
+$var wire 1 q" G $end
+$var wire 1 r" P $end
+$upscope $end
+$scope module GP[1] $end
+$var wire 1 s" A $end
+$var wire 1 t" B $end
+$var wire 1 u" G $end
+$var wire 1 v" P $end
+$upscope $end
+$scope module GP[2] $end
+$var wire 1 w" A $end
+$var wire 1 x" B $end
+$var wire 1 y" G $end
+$var wire 1 z" P $end
+$upscope $end
+$scope module GP[3] $end
+$var wire 1 {" A $end
+$var wire 1 |" B $end
+$var wire 1 }" G $end
+$var wire 1 ~" P $end
+$upscope $end
+$upscope $end
+$scope module MCC_4bit_2 $end
+$var wire 4 !# A [3:0] $end
+$var wire 4 "# B [3:0] $end
+$var wire 4 ## Sum [3:0] $end
+$var wire 4 $# P [3:0] $end
+$var wire 4 %# G [3:0] $end
+$var wire 1 e" Cout $end
+$var wire 5 &# C [4:0] $end
+$scope begin genblk1[0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope module GP[0] $end
+$var wire 1 '# A $end
+$var wire 1 (# B $end
+$var wire 1 )# G $end
+$var wire 1 *# P $end
+$upscope $end
+$scope module GP[1] $end
+$var wire 1 +# A $end
+$var wire 1 ,# B $end
+$var wire 1 -# G $end
+$var wire 1 .# P $end
+$upscope $end
+$scope module GP[2] $end
+$var wire 1 /# A $end
+$var wire 1 0# B $end
+$var wire 1 1# G $end
+$var wire 1 2# P $end
+$upscope $end
+$scope module GP[3] $end
+$var wire 1 3# A $end
+$var wire 1 4# B $end
+$var wire 1 5# G $end
+$var wire 1 6# P $end
+$upscope $end
+$upscope $end
+$scope module MCC_4bit_3 $end
+$var wire 4 7# A [3:0] $end
+$var wire 4 8# Sum [3:0] $end
+$var wire 4 9# P [3:0] $end
+$var wire 4 :# G [3:0] $end
+$var wire 1 g" Cout $end
+$var wire 5 ;# C [4:0] $end
+$var wire 4 <# B [3:0] $end
+$scope begin genblk1[0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope module GP[0] $end
+$var wire 1 =# A $end
+$var wire 1 ># B $end
+$var wire 1 ?# G $end
+$var wire 1 @# P $end
+$upscope $end
+$scope module GP[1] $end
+$var wire 1 A# A $end
+$var wire 1 B# B $end
+$var wire 1 C# G $end
+$var wire 1 D# P $end
+$upscope $end
+$scope module GP[2] $end
+$var wire 1 E# A $end
+$var wire 1 F# B $end
+$var wire 1 G# G $end
+$var wire 1 H# P $end
+$upscope $end
+$scope module GP[3] $end
+$var wire 1 I# A $end
+$var wire 1 J# B $end
+$var wire 1 K# G $end
+$var wire 1 L# P $end
+$upscope $end
+$upscope $end
+$scope module vedicmcc_1 $end
+$var wire 2 M# a [1:0] $end
+$var wire 2 N# b [1:0] $end
+$var wire 4 O# temp [3:0] $end
+$var wire 4 P# c [3:0] $end
+$scope module z1 $end
+$var wire 1 Q# a $end
+$var wire 1 R# b $end
+$var wire 1 S# carry $end
+$var wire 1 T# sum $end
+$upscope $end
+$scope module z2 $end
+$var wire 1 U# a $end
+$var wire 1 V# b $end
+$var wire 1 W# carry $end
+$var wire 1 X# sum $end
+$upscope $end
+$upscope $end
+$scope module vedicmcc_2 $end
+$var wire 2 Y# a [1:0] $end
+$var wire 2 Z# b [1:0] $end
+$var wire 4 [# temp [3:0] $end
+$var wire 4 \# c [3:0] $end
+$scope module z1 $end
+$var wire 1 ]# a $end
+$var wire 1 ^# b $end
+$var wire 1 _# carry $end
+$var wire 1 `# sum $end
+$upscope $end
+$scope module z2 $end
+$var wire 1 a# a $end
+$var wire 1 b# b $end
+$var wire 1 c# carry $end
+$var wire 1 d# sum $end
+$upscope $end
+$upscope $end
+$scope module vedicmcc_3 $end
+$var wire 2 e# a [1:0] $end
+$var wire 2 f# b [1:0] $end
+$var wire 4 g# temp [3:0] $end
+$var wire 4 h# c [3:0] $end
+$scope module z1 $end
+$var wire 1 i# a $end
+$var wire 1 j# b $end
+$var wire 1 k# carry $end
+$var wire 1 l# sum $end
+$upscope $end
+$scope module z2 $end
+$var wire 1 m# a $end
+$var wire 1 n# b $end
+$var wire 1 o# carry $end
+$var wire 1 p# sum $end
+$upscope $end
+$upscope $end
+$scope module vedicmcc_4 $end
+$var wire 2 q# a [1:0] $end
+$var wire 2 r# b [1:0] $end
+$var wire 4 s# temp [3:0] $end
+$var wire 4 t# c [3:0] $end
+$scope module z1 $end
+$var wire 1 u# a $end
+$var wire 1 v# b $end
+$var wire 1 w# carry $end
+$var wire 1 x# sum $end
+$upscope $end
+$scope module z2 $end
+$var wire 1 y# a $end
+$var wire 1 z# b $end
+$var wire 1 {# carry $end
+$var wire 1 |# sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module gabung_coba_2 $end
+$var wire 4 }# a [3:0] $end
+$var wire 4 ~# b [3:0] $end
+$var wire 1 !$ cin $end
+$var wire 1 "$ s8 $end
+$var wire 4 #$ s9 [3:0] $end
+$var wire 4 $$ s7 [3:0] $end
+$var wire 4 %$ s6 [3:0] $end
+$var wire 4 &$ s5 [3:0] $end
+$var wire 4 '$ s4 [3:0] $end
+$var wire 4 ($ s3 [3:0] $end
+$var wire 4 )$ s2 [3:0] $end
+$var wire 4 *$ s1 [3:0] $end
+$var wire 1 +$ cout_s6 $end
+$var wire 1 ,$ cout_s5 $end
+$var wire 1 -$ cout $end
+$var wire 8 .$ c [7:0] $end
+$scope module MCC_4bit_1 $end
+$var wire 4 /$ Sum [3:0] $end
+$var wire 4 0$ P [3:0] $end
+$var wire 4 1$ G [3:0] $end
+$var wire 1 ,$ Cout $end
+$var wire 5 2$ C [4:0] $end
+$var wire 4 3$ B [3:0] $end
+$var wire 4 4$ A [3:0] $end
+$scope begin genblk1[0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope module GP[0] $end
+$var wire 1 5$ A $end
+$var wire 1 6$ B $end
+$var wire 1 7$ G $end
+$var wire 1 8$ P $end
+$upscope $end
+$scope module GP[1] $end
+$var wire 1 9$ A $end
+$var wire 1 :$ B $end
+$var wire 1 ;$ G $end
+$var wire 1 <$ P $end
+$upscope $end
+$scope module GP[2] $end
+$var wire 1 =$ A $end
+$var wire 1 >$ B $end
+$var wire 1 ?$ G $end
+$var wire 1 @$ P $end
+$upscope $end
+$scope module GP[3] $end
+$var wire 1 A$ A $end
+$var wire 1 B$ B $end
+$var wire 1 C$ G $end
+$var wire 1 D$ P $end
+$upscope $end
+$upscope $end
+$scope module MCC_4bit_2 $end
+$var wire 4 E$ A [3:0] $end
+$var wire 4 F$ B [3:0] $end
+$var wire 4 G$ Sum [3:0] $end
+$var wire 4 H$ P [3:0] $end
+$var wire 4 I$ G [3:0] $end
+$var wire 1 +$ Cout $end
+$var wire 5 J$ C [4:0] $end
+$scope begin genblk1[0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope module GP[0] $end
+$var wire 1 K$ A $end
+$var wire 1 L$ B $end
+$var wire 1 M$ G $end
+$var wire 1 N$ P $end
+$upscope $end
+$scope module GP[1] $end
+$var wire 1 O$ A $end
+$var wire 1 P$ B $end
+$var wire 1 Q$ G $end
+$var wire 1 R$ P $end
+$upscope $end
+$scope module GP[2] $end
+$var wire 1 S$ A $end
+$var wire 1 T$ B $end
+$var wire 1 U$ G $end
+$var wire 1 V$ P $end
+$upscope $end
+$scope module GP[3] $end
+$var wire 1 W$ A $end
+$var wire 1 X$ B $end
+$var wire 1 Y$ G $end
+$var wire 1 Z$ P $end
+$upscope $end
+$upscope $end
+$scope module MCC_4bit_3 $end
+$var wire 4 [$ A [3:0] $end
+$var wire 4 \$ Sum [3:0] $end
+$var wire 4 ]$ P [3:0] $end
+$var wire 4 ^$ G [3:0] $end
+$var wire 1 -$ Cout $end
+$var wire 5 _$ C [4:0] $end
+$var wire 4 `$ B [3:0] $end
+$scope begin genblk1[0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope module GP[0] $end
+$var wire 1 a$ A $end
+$var wire 1 b$ B $end
+$var wire 1 c$ G $end
+$var wire 1 d$ P $end
+$upscope $end
+$scope module GP[1] $end
+$var wire 1 e$ A $end
+$var wire 1 f$ B $end
+$var wire 1 g$ G $end
+$var wire 1 h$ P $end
+$upscope $end
+$scope module GP[2] $end
+$var wire 1 i$ A $end
+$var wire 1 j$ B $end
+$var wire 1 k$ G $end
+$var wire 1 l$ P $end
+$upscope $end
+$scope module GP[3] $end
+$var wire 1 m$ A $end
+$var wire 1 n$ B $end
+$var wire 1 o$ G $end
+$var wire 1 p$ P $end
+$upscope $end
+$upscope $end
+$scope module vedicmcc_1 $end
+$var wire 2 q$ a [1:0] $end
+$var wire 2 r$ b [1:0] $end
+$var wire 4 s$ temp [3:0] $end
+$var wire 4 t$ c [3:0] $end
+$scope module z1 $end
+$var wire 1 u$ a $end
+$var wire 1 v$ b $end
+$var wire 1 w$ carry $end
+$var wire 1 x$ sum $end
+$upscope $end
+$scope module z2 $end
+$var wire 1 y$ a $end
+$var wire 1 z$ b $end
+$var wire 1 {$ carry $end
+$var wire 1 |$ sum $end
+$upscope $end
+$upscope $end
+$scope module vedicmcc_2 $end
+$var wire 2 }$ a [1:0] $end
+$var wire 2 ~$ b [1:0] $end
+$var wire 4 !% temp [3:0] $end
+$var wire 4 "% c [3:0] $end
+$scope module z1 $end
+$var wire 1 #% a $end
+$var wire 1 $% b $end
+$var wire 1 %% carry $end
+$var wire 1 &% sum $end
+$upscope $end
+$scope module z2 $end
+$var wire 1 '% a $end
+$var wire 1 (% b $end
+$var wire 1 )% carry $end
+$var wire 1 *% sum $end
+$upscope $end
+$upscope $end
+$scope module vedicmcc_3 $end
+$var wire 2 +% a [1:0] $end
+$var wire 2 ,% b [1:0] $end
+$var wire 4 -% temp [3:0] $end
+$var wire 4 .% c [3:0] $end
+$scope module z1 $end
+$var wire 1 /% a $end
+$var wire 1 0% b $end
+$var wire 1 1% carry $end
+$var wire 1 2% sum $end
+$upscope $end
+$scope module z2 $end
+$var wire 1 3% a $end
+$var wire 1 4% b $end
+$var wire 1 5% carry $end
+$var wire 1 6% sum $end
+$upscope $end
+$upscope $end
+$scope module vedicmcc_4 $end
+$var wire 2 7% a [1:0] $end
+$var wire 2 8% b [1:0] $end
+$var wire 4 9% temp [3:0] $end
+$var wire 4 :% c [3:0] $end
+$scope module z1 $end
+$var wire 1 ;% a $end
+$var wire 1 <% b $end
+$var wire 1 =% carry $end
+$var wire 1 >% sum $end
+$upscope $end
+$scope module z2 $end
+$var wire 1 ?% a $end
+$var wire 1 @% b $end
+$var wire 1 A% carry $end
+$var wire 1 B% sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module gabung_coba_3 $end
+$var wire 4 C% a [3:0] $end
+$var wire 4 D% b [3:0] $end
+$var wire 1 E% cin $end
+$var wire 1 F% s8 $end
+$var wire 4 G% s9 [3:0] $end
+$var wire 4 H% s7 [3:0] $end
+$var wire 4 I% s6 [3:0] $end
+$var wire 4 J% s5 [3:0] $end
+$var wire 4 K% s4 [3:0] $end
+$var wire 4 L% s3 [3:0] $end
+$var wire 4 M% s2 [3:0] $end
+$var wire 4 N% s1 [3:0] $end
+$var wire 1 O% cout_s6 $end
+$var wire 1 P% cout_s5 $end
+$var wire 1 Q% cout $end
+$var wire 8 R% c [7:0] $end
+$scope module MCC_4bit_1 $end
+$var wire 4 S% Sum [3:0] $end
+$var wire 4 T% P [3:0] $end
+$var wire 4 U% G [3:0] $end
+$var wire 1 P% Cout $end
+$var wire 5 V% C [4:0] $end
+$var wire 4 W% B [3:0] $end
+$var wire 4 X% A [3:0] $end
+$scope begin genblk1[0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope module GP[0] $end
+$var wire 1 Y% A $end
+$var wire 1 Z% B $end
+$var wire 1 [% G $end
+$var wire 1 \% P $end
+$upscope $end
+$scope module GP[1] $end
+$var wire 1 ]% A $end
+$var wire 1 ^% B $end
+$var wire 1 _% G $end
+$var wire 1 `% P $end
+$upscope $end
+$scope module GP[2] $end
+$var wire 1 a% A $end
+$var wire 1 b% B $end
+$var wire 1 c% G $end
+$var wire 1 d% P $end
+$upscope $end
+$scope module GP[3] $end
+$var wire 1 e% A $end
+$var wire 1 f% B $end
+$var wire 1 g% G $end
+$var wire 1 h% P $end
+$upscope $end
+$upscope $end
+$scope module MCC_4bit_2 $end
+$var wire 4 i% A [3:0] $end
+$var wire 4 j% B [3:0] $end
+$var wire 4 k% Sum [3:0] $end
+$var wire 4 l% P [3:0] $end
+$var wire 4 m% G [3:0] $end
+$var wire 1 O% Cout $end
+$var wire 5 n% C [4:0] $end
+$scope begin genblk1[0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope module GP[0] $end
+$var wire 1 o% A $end
+$var wire 1 p% B $end
+$var wire 1 q% G $end
+$var wire 1 r% P $end
+$upscope $end
+$scope module GP[1] $end
+$var wire 1 s% A $end
+$var wire 1 t% B $end
+$var wire 1 u% G $end
+$var wire 1 v% P $end
+$upscope $end
+$scope module GP[2] $end
+$var wire 1 w% A $end
+$var wire 1 x% B $end
+$var wire 1 y% G $end
+$var wire 1 z% P $end
+$upscope $end
+$scope module GP[3] $end
+$var wire 1 {% A $end
+$var wire 1 |% B $end
+$var wire 1 }% G $end
+$var wire 1 ~% P $end
+$upscope $end
+$upscope $end
+$scope module MCC_4bit_3 $end
+$var wire 4 !& A [3:0] $end
+$var wire 4 "& Sum [3:0] $end
+$var wire 4 #& P [3:0] $end
+$var wire 4 $& G [3:0] $end
+$var wire 1 Q% Cout $end
+$var wire 5 %& C [4:0] $end
+$var wire 4 && B [3:0] $end
+$scope begin genblk1[0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope module GP[0] $end
+$var wire 1 '& A $end
+$var wire 1 (& B $end
+$var wire 1 )& G $end
+$var wire 1 *& P $end
+$upscope $end
+$scope module GP[1] $end
+$var wire 1 +& A $end
+$var wire 1 ,& B $end
+$var wire 1 -& G $end
+$var wire 1 .& P $end
+$upscope $end
+$scope module GP[2] $end
+$var wire 1 /& A $end
+$var wire 1 0& B $end
+$var wire 1 1& G $end
+$var wire 1 2& P $end
+$upscope $end
+$scope module GP[3] $end
+$var wire 1 3& A $end
+$var wire 1 4& B $end
+$var wire 1 5& G $end
+$var wire 1 6& P $end
+$upscope $end
+$upscope $end
+$scope module vedicmcc_1 $end
+$var wire 2 7& a [1:0] $end
+$var wire 2 8& b [1:0] $end
+$var wire 4 9& temp [3:0] $end
+$var wire 4 :& c [3:0] $end
+$scope module z1 $end
+$var wire 1 ;& a $end
+$var wire 1 <& b $end
+$var wire 1 =& carry $end
+$var wire 1 >& sum $end
+$upscope $end
+$scope module z2 $end
+$var wire 1 ?& a $end
+$var wire 1 @& b $end
+$var wire 1 A& carry $end
+$var wire 1 B& sum $end
+$upscope $end
+$upscope $end
+$scope module vedicmcc_2 $end
+$var wire 2 C& a [1:0] $end
+$var wire 2 D& b [1:0] $end
+$var wire 4 E& temp [3:0] $end
+$var wire 4 F& c [3:0] $end
+$scope module z1 $end
+$var wire 1 G& a $end
+$var wire 1 H& b $end
+$var wire 1 I& carry $end
+$var wire 1 J& sum $end
+$upscope $end
+$scope module z2 $end
+$var wire 1 K& a $end
+$var wire 1 L& b $end
+$var wire 1 M& carry $end
+$var wire 1 N& sum $end
+$upscope $end
+$upscope $end
+$scope module vedicmcc_3 $end
+$var wire 2 O& a [1:0] $end
+$var wire 2 P& b [1:0] $end
+$var wire 4 Q& temp [3:0] $end
+$var wire 4 R& c [3:0] $end
+$scope module z1 $end
+$var wire 1 S& a $end
+$var wire 1 T& b $end
+$var wire 1 U& carry $end
+$var wire 1 V& sum $end
+$upscope $end
+$scope module z2 $end
+$var wire 1 W& a $end
+$var wire 1 X& b $end
+$var wire 1 Y& carry $end
+$var wire 1 Z& sum $end
+$upscope $end
+$upscope $end
+$scope module vedicmcc_4 $end
+$var wire 2 [& a [1:0] $end
+$var wire 2 \& b [1:0] $end
+$var wire 4 ]& temp [3:0] $end
+$var wire 4 ^& c [3:0] $end
+$scope module z1 $end
+$var wire 1 _& a $end
+$var wire 1 `& b $end
+$var wire 1 a& carry $end
+$var wire 1 b& sum $end
+$upscope $end
+$scope module z2 $end
+$var wire 1 c& a $end
+$var wire 1 d& b $end
+$var wire 1 e& carry $end
+$var wire 1 f& sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module gabung_coba_4 $end
+$var wire 4 g& a [3:0] $end
+$var wire 4 h& b [3:0] $end
+$var wire 1 i& cin $end
+$var wire 1 j& s8 $end
+$var wire 4 k& s9 [3:0] $end
+$var wire 4 l& s7 [3:0] $end
+$var wire 4 m& s6 [3:0] $end
+$var wire 4 n& s5 [3:0] $end
+$var wire 4 o& s4 [3:0] $end
+$var wire 4 p& s3 [3:0] $end
+$var wire 4 q& s2 [3:0] $end
+$var wire 4 r& s1 [3:0] $end
+$var wire 1 s& cout_s6 $end
+$var wire 1 t& cout_s5 $end
+$var wire 1 u& cout $end
+$var wire 8 v& c [7:0] $end
+$scope module MCC_4bit_1 $end
+$var wire 4 w& Sum [3:0] $end
+$var wire 4 x& P [3:0] $end
+$var wire 4 y& G [3:0] $end
+$var wire 1 t& Cout $end
+$var wire 5 z& C [4:0] $end
+$var wire 4 {& B [3:0] $end
+$var wire 4 |& A [3:0] $end
+$scope begin genblk1[0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope module GP[0] $end
+$var wire 1 }& A $end
+$var wire 1 ~& B $end
+$var wire 1 !' G $end
+$var wire 1 "' P $end
+$upscope $end
+$scope module GP[1] $end
+$var wire 1 #' A $end
+$var wire 1 $' B $end
+$var wire 1 %' G $end
+$var wire 1 &' P $end
+$upscope $end
+$scope module GP[2] $end
+$var wire 1 '' A $end
+$var wire 1 (' B $end
+$var wire 1 )' G $end
+$var wire 1 *' P $end
+$upscope $end
+$scope module GP[3] $end
+$var wire 1 +' A $end
+$var wire 1 ,' B $end
+$var wire 1 -' G $end
+$var wire 1 .' P $end
+$upscope $end
+$upscope $end
+$scope module MCC_4bit_2 $end
+$var wire 4 /' A [3:0] $end
+$var wire 4 0' B [3:0] $end
+$var wire 4 1' Sum [3:0] $end
+$var wire 4 2' P [3:0] $end
+$var wire 4 3' G [3:0] $end
+$var wire 1 s& Cout $end
+$var wire 5 4' C [4:0] $end
+$scope begin genblk1[0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope module GP[0] $end
+$var wire 1 5' A $end
+$var wire 1 6' B $end
+$var wire 1 7' G $end
+$var wire 1 8' P $end
+$upscope $end
+$scope module GP[1] $end
+$var wire 1 9' A $end
+$var wire 1 :' B $end
+$var wire 1 ;' G $end
+$var wire 1 <' P $end
+$upscope $end
+$scope module GP[2] $end
+$var wire 1 =' A $end
+$var wire 1 >' B $end
+$var wire 1 ?' G $end
+$var wire 1 @' P $end
+$upscope $end
+$scope module GP[3] $end
+$var wire 1 A' A $end
+$var wire 1 B' B $end
+$var wire 1 C' G $end
+$var wire 1 D' P $end
+$upscope $end
+$upscope $end
+$scope module MCC_4bit_3 $end
+$var wire 4 E' A [3:0] $end
+$var wire 4 F' Sum [3:0] $end
+$var wire 4 G' P [3:0] $end
+$var wire 4 H' G [3:0] $end
+$var wire 1 u& Cout $end
+$var wire 5 I' C [4:0] $end
+$var wire 4 J' B [3:0] $end
+$scope begin genblk1[0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$scope module GP[0] $end
+$var wire 1 K' A $end
+$var wire 1 L' B $end
+$var wire 1 M' G $end
+$var wire 1 N' P $end
+$upscope $end
+$scope module GP[1] $end
+$var wire 1 O' A $end
+$var wire 1 P' B $end
+$var wire 1 Q' G $end
+$var wire 1 R' P $end
+$upscope $end
+$scope module GP[2] $end
+$var wire 1 S' A $end
+$var wire 1 T' B $end
+$var wire 1 U' G $end
+$var wire 1 V' P $end
+$upscope $end
+$scope module GP[3] $end
+$var wire 1 W' A $end
+$var wire 1 X' B $end
+$var wire 1 Y' G $end
+$var wire 1 Z' P $end
+$upscope $end
+$upscope $end
+$scope module vedicmcc_1 $end
+$var wire 2 [' a [1:0] $end
+$var wire 2 \' b [1:0] $end
+$var wire 4 ]' temp [3:0] $end
+$var wire 4 ^' c [3:0] $end
+$scope module z1 $end
+$var wire 1 _' a $end
+$var wire 1 `' b $end
+$var wire 1 a' carry $end
+$var wire 1 b' sum $end
+$upscope $end
+$scope module z2 $end
+$var wire 1 c' a $end
+$var wire 1 d' b $end
+$var wire 1 e' carry $end
+$var wire 1 f' sum $end
+$upscope $end
+$upscope $end
+$scope module vedicmcc_2 $end
+$var wire 2 g' a [1:0] $end
+$var wire 2 h' b [1:0] $end
+$var wire 4 i' temp [3:0] $end
+$var wire 4 j' c [3:0] $end
+$scope module z1 $end
+$var wire 1 k' a $end
+$var wire 1 l' b $end
+$var wire 1 m' carry $end
+$var wire 1 n' sum $end
+$upscope $end
+$scope module z2 $end
+$var wire 1 o' a $end
+$var wire 1 p' b $end
+$var wire 1 q' carry $end
+$var wire 1 r' sum $end
+$upscope $end
+$upscope $end
+$scope module vedicmcc_3 $end
+$var wire 2 s' a [1:0] $end
+$var wire 2 t' b [1:0] $end
+$var wire 4 u' temp [3:0] $end
+$var wire 4 v' c [3:0] $end
+$scope module z1 $end
+$var wire 1 w' a $end
+$var wire 1 x' b $end
+$var wire 1 y' carry $end
+$var wire 1 z' sum $end
+$upscope $end
+$scope module z2 $end
+$var wire 1 {' a $end
+$var wire 1 |' b $end
+$var wire 1 }' carry $end
+$var wire 1 ~' sum $end
+$upscope $end
+$upscope $end
+$scope module vedicmcc_4 $end
+$var wire 2 !( a [1:0] $end
+$var wire 2 "( b [1:0] $end
+$var wire 4 #( temp [3:0] $end
+$var wire 4 $( c [3:0] $end
+$scope module z1 $end
+$var wire 1 %( a $end
+$var wire 1 &( b $end
+$var wire 1 '( carry $end
+$var wire 1 (( sum $end
+$upscope $end
+$scope module z2 $end
+$var wire 1 )( a $end
+$var wire 1 *( b $end
+$var wire 1 +( carry $end
+$var wire 1 ,( sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module memory16bit_1 $end
+$var wire 1 & clock $end
+$var wire 16 -( d [15:0] $end
+$var wire 1 ' enable $end
+$var wire 16 .( q [15:0] $end
+$var wire 1 ( reset $end
+$var wire 1 @ done $end
+$var reg 1 @ done_reg $end
+$var reg 16 /( q_reg [15:0] $end
+$upscope $end
+$scope module memory1bit_1 $end
+$var wire 1 & clock $end
+$var wire 1 5 d $end
+$var wire 1 2 done $end
+$var wire 1 ' enable $end
+$var wire 1 # q $end
+$var wire 1 ( reset $end
+$var reg 1 0( d_reg $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x0(
+bx /(
+bx .(
+bx -(
+0,(
+0+(
+0*(
+0)(
+0((
+0'(
+0&(
+0%(
+b0 $(
+b0 #(
+b0 "(
+b11 !(
+0~'
+0}'
+0|'
+0{'
+0z'
+0y'
+0x'
+0w'
+b0 v'
+b0 u'
+b0 t'
+b1 s'
+1r'
+0q'
+0p'
+1o'
+1n'
+0m'
+1l'
+0k'
+b110 j'
+b110 i'
+b10 h'
+b11 g'
+0f'
+0e'
+0d'
+0c'
+1b'
+0a'
+1`'
+0_'
+b10 ^'
+b10 ]'
+b10 \'
+b1 ['
+1Z'
+0Y'
+0X'
+1W'
+0V'
+0U'
+0T'
+0S'
+0R'
+0Q'
+0P'
+0O'
+0N'
+0M'
+0L'
+0K'
+b0 J'
+b0 I'
+b0 H'
+b1 G'
+b1 F'
+b1 E'
+0D'
+0C'
+0B'
+0A'
+1@'
+0?'
+1>'
+0='
+1<'
+0;'
+1:'
+09'
+08'
+07'
+06'
+05'
+b0 4'
+b0 3'
+b110 2'
+b110 1'
+b110 0'
+b0 /'
+0.'
+0-'
+0,'
+0+'
+1*'
+0)'
+0('
+1''
+1&'
+0%'
+0$'
+1#'
+0"'
+0!'
+0~&
+0}&
+b110 |&
+b0 {&
+b0 z&
+b0 y&
+b110 x&
+b110 w&
+b11010 v&
+0u&
+0t&
+0s&
+b10 r&
+b110 q&
+b0 p&
+b0 o&
+b110 n&
+b110 m&
+b0 l&
+b1 k&
+0j&
+0i&
+b10 h&
+b1101 g&
+0f&
+0e&
+0d&
+0c&
+0b&
+0a&
+0`&
+0_&
+b0 ^&
+b0 ]&
+b0 \&
+b10 [&
+0Z&
+0Y&
+0X&
+0W&
+0V&
+0U&
+0T&
+0S&
+b0 R&
+b0 Q&
+b0 P&
+b11 O&
+1N&
+0M&
+0L&
+1K&
+0J&
+0I&
+0H&
+0G&
+b100 F&
+b100 E&
+b10 D&
+b10 C&
+1B&
+0A&
+0@&
+1?&
+1>&
+0=&
+1<&
+0;&
+b110 :&
+b110 9&
+b10 8&
+b11 7&
+16&
+05&
+04&
+13&
+02&
+01&
+00&
+0/&
+0.&
+0-&
+0,&
+0+&
+0*&
+0)&
+0(&
+0'&
+b0 &&
+b0 %&
+b0 $&
+b1 #&
+b1 "&
+b1 !&
+1~%
+0}%
+0|%
+1{%
+0z%
+0y%
+0x%
+0w%
+1v%
+0u%
+1t%
+0s%
+0r%
+0q%
+0p%
+0o%
+b0 n%
+b0 m%
+b101 l%
+b101 k%
+b100 j%
+b1 i%
+0h%
+0g%
+0f%
+0e%
+0d%
+0c%
+0b%
+0a%
+1`%
+0_%
+0^%
+1]%
+0\%
+0[%
+0Z%
+0Y%
+b100 X%
+b0 W%
+b0 V%
+b0 U%
+b100 T%
+b100 S%
+b10110 R%
+0Q%
+0P%
+0O%
+b110 N%
+b100 M%
+b0 L%
+b0 K%
+b100 J%
+b101 I%
+b1 H%
+b1 G%
+0F%
+0E%
+b10 D%
+b1011 C%
+1B%
+0A%
+0@%
+1?%
+1>%
+0=%
+1<%
+0;%
+b110 :%
+b110 9%
+b10 8%
+b11 7%
+06%
+05%
+04%
+03%
+12%
+01%
+10%
+0/%
+b10 .%
+b10 -%
+b10 ,%
+b1 +%
+1*%
+0)%
+0(%
+1'%
+1&%
+0%%
+1$%
+0#%
+b110 "%
+b110 !%
+b10 ~$
+b11 }$
+0|$
+0{$
+0z$
+0y$
+1x$
+0w$
+1v$
+0u$
+b10 t$
+b10 s$
+b10 r$
+b1 q$
+0p$
+0o$
+0n$
+0m$
+1l$
+1k$
+1j$
+1i$
+1h$
+0g$
+1f$
+0e$
+0d$
+0c$
+0b$
+0a$
+b110 `$
+b1100 _$
+b10 ^$
+b110 ]$
+b1000 \$
+b10 [$
+0Z$
+0Y$
+0X$
+0W$
+0V$
+0U$
+0T$
+0S$
+0R$
+0Q$
+0P$
+0O$
+1N$
+0M$
+1L$
+0K$
+b0 J$
+b0 I$
+b1000 H$
+b1000 G$
+b1000 F$
+b0 E$
+0D$
+0C$
+0B$
+0A$
+1@$
+1?$
+1>$
+1=$
+1<$
+0;$
+0:$
+19$
+08$
+07$
+06$
+05$
+b110 4$
+b10 3$
+b1100 2$
+b10 1$
+b110 0$
+b1000 /$
+b10000010 .$
+0-$
+0,$
+0+$
+b10 *$
+b110 )$
+b10 ($
+b110 '$
+b1000 &$
+b1000 %$
+b0 $$
+b10 #$
+0"$
+0!$
+b1010 ~#
+b1101 }#
+1|#
+0{#
+0z#
+1y#
+0x#
+0w#
+0v#
+0u#
+b100 t#
+b100 s#
+b10 r#
+b10 q#
+1p#
+0o#
+0n#
+1m#
+1l#
+0k#
+1j#
+0i#
+b110 h#
+b110 g#
+b10 f#
+b11 e#
+1d#
+0c#
+0b#
+1a#
+0`#
+0_#
+0^#
+0]#
+b100 \#
+b100 [#
+b10 Z#
+b10 Y#
+1X#
+0W#
+0V#
+1U#
+1T#
+0S#
+1R#
+0Q#
+b110 P#
+b110 O#
+b10 N#
+b11 M#
+0L#
+0K#
+0J#
+0I#
+1H#
+0G#
+0F#
+1E#
+1D#
+0C#
+1B#
+0A#
+0@#
+0?#
+0>#
+0=#
+b100 <#
+b0 ;#
+b0 :#
+b110 9#
+b110 8#
+b10 7#
+16#
+05#
+04#
+13#
+12#
+01#
+10#
+0/#
+0.#
+0-#
+0,#
+0+#
+1*#
+0)#
+1(#
+0'#
+b0 &#
+b0 %#
+b1011 $#
+b1011 ##
+b1010 "#
+b1 !#
+0~"
+0}"
+0|"
+0{"
+1z"
+0y"
+1x"
+0w"
+1v"
+1u"
+1t"
+1s"
+0r"
+0q"
+0p"
+0o"
+b100 n"
+b110 m"
+b1000 l"
+b100 k"
+b110 j"
+b1010 i"
+b1101110 h"
+0g"
+0f"
+0e"
+b110 d"
+b100 c"
+b110 b"
+b100 a"
+b1010 `"
+b1011 _"
+b1 ^"
+b10 ]"
+0\"
+0["
+b1010 Z"
+b1011 Y"
+1X"
+0W"
+0V"
+1U"
+1T"
+0S"
+1R"
+0Q"
+0P"
+0O"
+0N"
+0M"
+1L"
+1K"
+1J"
+1I"
+1H"
+0G"
+1F"
+0E"
+0D"
+0C"
+0B"
+0A"
+0@"
+0?"
+0>"
+0="
+0<"
+0;"
+0:"
+09"
+b11010 8"
+b110000 7"
+b1000 6"
+b11011 5"
+b100011 4"
+b1001 3"
+02"
+01"
+00"
+0/"
+1."
+0-"
+0,"
+1+"
+1*"
+0)"
+0("
+1'"
+1&"
+0%"
+1$"
+0#"
+1""
+0!"
+1~
+0}
+0|
+0{
+0z
+0y
+0x
+0w
+0v
+0u
+1t
+0s
+1r
+0q
+b0 p
+b0 o
+b10011110 n
+b10011110 m
+b10011000 l
+b110 k
+0j
+0i
+0h
+0g
+1f
+1e
+1d
+1c
+1b
+0a
+1`
+0_
+0^
+0]
+0\
+0[
+1Z
+0Y
+1X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+1N
+0M
+0L
+1K
+b10000010 J
+b10110 I
+b1100 H
+b10 G
+b10010110 F
+b10011000 E
+b101010 D
+b10001111101110 C
+0B
+0A
+x@
+bx ?
+b1101110 >
+b10000010 =
+b10110 <
+b11010 ;
+b10011000 :
+b10011110 9
+b110 8
+b1001 7
+bx 6
+05
+bx 4
+03
+z2
+01
+b10101010 0
+b0x0x0x00 /
+b11011011 .
+b0xx0xx0xx -
+b11011011 ,
+bx +
+b0 *
+bx0000000 )
+0(
+1'
+0&
+b10101010 %
+b11011011 $
+x#
+x"
+bx !
+$end
+#5
+1@
+0#
+00(
+1&
+#10
+0&
+#15
+1&
+#20
+0&
+#25
+1&
+#30
+0&
+#35
+1&
+#40
+0&
+#45
+1&
+#50
+0&
+#55
+1&
+#60
+0&
+#65
+1&
+#70
+0&
+#75
+1&
+#80
+0&
+#85
+1&
+#90
+0&
+#95
+1&
+#100
+0&

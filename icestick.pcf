@@ -1,0 +1,22 @@
+set_io clk 21
+
+set_io a[0] 80
+set_io a[1] 81
+set_io a[2] 87
+set_io a[3] 88
+
+set_io b[0] 100   
+set_io b[1] 104
+set_io b[2] 105
+set_io b[3] 106
+
+set_io c[0] 112
+set_io c[1] 113
+set_io c[2] 114
+set_io c[3] 115
+set_io c[4] 116
+set_io c[5] 117
+set_io c[6] 118
+set_io c[7] 119
+
+set_io cout 91
